@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox fx:id="rootVBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="5.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.robby.controller.MainController">
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+   <children>
+      <TextArea fx:id="txtOutput" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+      <HBox alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#openAction" text="Open" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
